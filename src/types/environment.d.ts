@@ -1,12 +1,14 @@
 export {}
 
+/**
+ * Adds type definition for environment variables,
+ * every new variable must to be defiend in the
+ * ProcessEnv interface
+ */
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      SLACK_CHANNEL: string
-      SLACK_TOKEN: string
-      BALENA_TOKEN: string
-      BALENA_API_URL: string
+      // MY_ENV_VAR: type
       ENV: 'test' | 'dev' | 'prod'
     }
   }
