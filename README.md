@@ -1,3 +1,5 @@
+Template to start a new Typescript project
+
 # Install
 
 ```bash
@@ -21,8 +23,10 @@ npm run build
 npm start
 ```
 
-Path alias
-Tests
-Env vars
-Format
-Tsconfig
+# Features
+
+- Path alias
+- Tests
+- Env vars
+- Format
+- Tsconfig
