@@ -30,3 +30,4 @@ npm start
 - Env vars
 - Format
 - Tsconfig
+- Github actions
