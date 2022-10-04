@@ -1,8 +1,12 @@
 {
-  "name": "ts-project-template",
+  "name": "ts-library-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "start": "TS_NODE_BASEURL=./dist node -r tsconfig-paths/register dist/index.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --files --project tsconfig.json --respawn ./src/index.ts",
