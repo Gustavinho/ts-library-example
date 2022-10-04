@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  "types": "./dist/types",
+  "types": "./types",
   "files": [
-    "/dist"
+    "/dist",
+    "/types"
   ],
   "scripts": {
     "start": "TS_NODE_BASEURL=./dist node -r tsconfig-paths/register dist/index.js",
